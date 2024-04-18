@@ -1,0 +1,38 @@
+#todo {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10% 0 10%;
+  align-items: center;
+  word-wrap: break-word;
+  font-size: 18px;
+  border: 1px solid #000000;
+  font-family: "Montserrat";
+  overflow-wrap: break-word;
+}
+
+#todo span {
+  overflow: hidden;
+  white-space: wrap;
+}
+
+.done {
+  background-color: lightgray;
+}
+
+span {
+  margin-left: 10px;
+  padding: 6px 0px;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  font-size: 18px;
+  height: 100%;
+  font-size: 20px;
+  border: none;
+  border-radius: 0px;
+  background: firebrick;
+  color: #fff;
+  margin-left: auto;
+  font-family: "Montserrat";
+}
